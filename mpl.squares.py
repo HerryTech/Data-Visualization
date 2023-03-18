@@ -6,4 +6,6 @@ fig, ax = plt.subplots()
 ax.plot(squares, linewidth = 3)
 """Set plot title and label axes"""
 ax.set_title("Square Numbers", fontsize = 24)
+ax.set_xlabel("Value", fontsize = 14)
+
 plt.show()
