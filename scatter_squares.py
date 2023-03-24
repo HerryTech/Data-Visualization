@@ -8,6 +8,6 @@ ax.set_title("Square Numbers", fontsize = 24)
 ax.set_xlabel("Value", fontsize = 14)
 ax.set_ylabel("Square of values", fontsize = 14)
 
-ax.tick_params(axix =)
+ax.tick_params(axix = "both",which = "major" labelsize = 14)
 
 plt.show()
