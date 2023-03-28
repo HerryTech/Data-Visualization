@@ -5,4 +5,4 @@ y_values = [1, 4, 9, 16, 25]
 
 plt.style.use("seaborn")
 fig, ax = plt.subplots()
-ax.scatter()
+ax.scatter(x_values, y_values)
