@@ -6,3 +6,9 @@ y_values = [1, 4, 9, 16, 25]
 plt.style.use("seaborn")
 fig, ax = plt.subplots()
 ax.scatter(x_values, y_values)
+
+ax.set_title("Square Numbers", fontsize = 24)
+ax.set_xlabel("Value", fontsize = 14)
+ax.set_ylabel("Square of values", fontsize = 14)
+
+plt.show()
