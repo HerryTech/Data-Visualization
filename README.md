@@ -8,4 +8,6 @@
 
 **Plotly generates visualizations that automatically resize to fit a variety of display devices**
 
-**These visualizations can also include a number of interactive features, such as emphasizing particular aspects of the data set when users hover over different parts of the visualization** We’ll use Plotly to analyze the results of rolling dice.
+**These visualizations can also include a number of interactive features, such as emphasizing particular aspects of the data set when users hover over different parts of the visualization** 
+
+**Use Plotly to analyze the results of rolling dice**
