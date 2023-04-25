@@ -10,4 +10,4 @@ ax.set_ylabel("Square of values", fontsize = 14)
 
 ax.tick_params(axis = "both", labelsize = 14)
 
-plt.savefig("s.png")
+plt.show()
