@@ -14,10 +14,12 @@ while True:
     ax.scatter(0, 0, c = "green", edgecolors = "none", s = 100)
     ax.scatter(rw.x_values[-1], rw.y_values[-1], c= "red", edgecolors = "none", s = 100)
     
+    #Remove axes
+    ax.xaxis.set_visible(False)
+    ax.get_yaxis().set_visible(False)
     
-    ax.set_title("Random Walk", fontsize = 24)
-    ax.set_xlabel("X-steps", fontsize = 14)
-    ax.set_ylabel("Y-steps", fontsize = 14)
+    #Set title
+    ax.set_title("A Random Walk", fontsize = 24)
 
     plt.savefig("random_walk.png")
     
