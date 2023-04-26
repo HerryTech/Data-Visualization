@@ -2,15 +2,17 @@ from plotly.graph_objs import Bar, Layout
 from plotly import offline
 from die import Die
 
-die = Die()
+die_1 = Die()
+die_2 = Die()
 
 results = []
 for roll_num in range(1000):
-    result = die.roll()
+    result = die_1.roll() + die_2.roll()
     results.append(result)
     
 frequencies = []
-for value in range(1, die.num_sides+1):
+max_result = die_1.num_sides + die_2.num_sides
+for value in range(1, max_result+1):
     frequency = results.count(value)
     frequencies.append(frequency)
     
