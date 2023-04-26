@@ -11,4 +11,6 @@ ax.set_title("Square Numbers", fontsize = 24)
 ax.set_xlabel("Value", fontsize = 14)
 ax.set_ylabel("Square of values", fontsize = 14)
 
+ax.axis([0, 1100, 0, 1100000])
+
 plt.show()
