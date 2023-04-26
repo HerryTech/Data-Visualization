@@ -12,5 +12,5 @@ for value in range(1, die.num_sides+1):
     frequency = results.count(value)
     frequencies.append(frequency)
     
-print(frequencies)
+x_values = list(range(1, die.num_sides+1))
     
