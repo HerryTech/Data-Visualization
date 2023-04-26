@@ -5,7 +5,7 @@ y_values = [x ** 2 for x in x_values]
 
 plt.style.use("seaborn")
 fig, ax = plt.subplots()
-ax.scatter(x_values, y_values)
+ax.scatter(x_values, y_values, s = 10)
 
 ax.set_title("Square Numbers", fontsize = 24)
 ax.set_xlabel("Value", fontsize = 14)
