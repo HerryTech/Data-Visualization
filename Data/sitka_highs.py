@@ -14,4 +14,11 @@ with open(filename) as f:
     
 plt.style.use("seaborn")
 fig, ax = plt.subplots()
-ax.plot("highs", c = "red")
+ax.plot(highs, c = "red")
+
+plt.title("Daily high temperature, July 2018", fontsize = 24)
+plt.xlabel("", fontsize = 14)
+plt.ylabel("Temperature (F)", fontsize = 16)
+plt.tick_params(axis = "both", which = "major", labelsize = 16)
+
+plt.show()
