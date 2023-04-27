@@ -19,6 +19,10 @@ x_values = list(range(2, max_result+1))
 
 plt.style.use("classic")
 fig, ax = plt.subplots()
-ax.barh(x_values, frequencies)
+ax.barh(x_values, frequencies, color = "brown")
 
-plt.show()
+ax.set_title("Result of rolling two dice 1000 times", fontsize = 24)
+ax.set_xlabel("Result", fontsize = 14)
+ax.set_ylabel("Frequency of Result", fontsize = 14)
+
+plt.savefig("dice3.png")
