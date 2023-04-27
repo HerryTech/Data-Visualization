@@ -1,4 +1,5 @@
 import csv
+import matplotlib.pyplot as plt
 
 filename = "Data/sitka_weather.csv"
 with open(filename) as f:
@@ -11,4 +12,6 @@ with open(filename) as f:
         high = int(row[5])
         highs.append(high)
     
-print(highs)
+plt.style.use("seaborn")
+fig, ax = plt.subplots()
+ax.plot("highs", c = "red")
