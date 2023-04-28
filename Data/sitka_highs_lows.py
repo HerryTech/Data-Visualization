@@ -21,9 +21,10 @@ with open(filename) as f:
     
 plt.style.use("classic")
 fig, ax = plt.subplots()
-ax.plot(date, highs, c = "red")
-ax.plot(date, lows, c ="blue")
+ax.plot(date, highs, c = "red", alpha = 0.5)
+ax.plot(date, lows, c ="blue", alpha = 0.5)
 
+plt.fill_between(date, highs, lows, facecolor = "blue", alpha = 0.5)
 plt.title("Daily high and low temperature, 2018", fontsize = 24)
 plt.xlabel("Date", fontsize = 14)
 fig.autofmt_xdate()
