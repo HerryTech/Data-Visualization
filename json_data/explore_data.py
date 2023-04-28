@@ -9,4 +9,10 @@ with open(filename, "w") as f:
     json.dump(eq_1_data, f, indent = 4)"""
     
 eq_dicts = eq_1_data["features"]
-print(len(eq_dicts))
+
+mags =[]
+for all in eq_dicts:
+    mag = all["properties"]["mag"]
+    mags.append(mag)
+    
+print(mags[:10])
