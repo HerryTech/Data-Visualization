@@ -9,4 +9,4 @@ with open(filename, "w") as f:
     json.dump(eq_1_data, f, indent = 4)"""
     
 eq_dicts = eq_1_data["features"]
-print(eq_dicts)
+print(len(eq_dicts))
