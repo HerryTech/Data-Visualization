@@ -2,7 +2,7 @@ import csv
 import matplotlib.pyplot as plt
 from datetime import datetime
 
-filename = "Data/sitka_weather_2018.csv"
+filename = "csv_data/sitka_weather_2018.csv"
 with open(filename) as f:
     reader = csv.reader(f)
     header_row = next(reader)
@@ -26,4 +26,4 @@ fig.autofmt_xdate()
 plt.ylabel("Temperature (F)", fontsize = 16)
 plt.tick_params(axis = "both", which = "major", labelsize = 16)
 
-plt.savefig("Data/sitka_highs.png")
+plt.savefig("csv_data/sitka_highs.png")
