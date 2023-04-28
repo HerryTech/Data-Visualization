@@ -16,12 +16,13 @@ with open(filename) as f:
         date.append(current_date)
         highs.append(high)
     
-plt.style.use("seaborn")
+plt.style.use("classic")
 fig, ax = plt.subplots()
 ax.plot(date, highs, c = "red")
 
 plt.title("Daily high temperature, July 2018", fontsize = 24)
-plt.xlabel("", fontsize = 14)
+plt.xlabel("Date", fontsize = 14)
+fig.autofmt_xdate()
 plt.ylabel("Temperature (F)", fontsize = 16)
 plt.tick_params(axis = "both", which = "major", labelsize = 16)
 
