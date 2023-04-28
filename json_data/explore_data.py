@@ -18,5 +18,3 @@ for all in eq_dicts:
     mags.append(mag)
     lons.append(lon)
     lats.append(lat)
-    
-print(lats)
