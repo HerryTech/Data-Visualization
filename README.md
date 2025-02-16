@@ -4,7 +4,7 @@
 
 **Create interesting data set based on the concept of a random walk—a visualization generated from a series of random decisions.**
 
-**Use Plotly to creates visualizations that work well on digital devices**
+**Use Plotly to creates visualizations that work well on digital devices.**
 
 **Plotly generates visualizations that automatically resize to fit a variety of display devices.**
 
