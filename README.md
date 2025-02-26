@@ -10,4 +10,4 @@
 
 **These visualizations can also include a number of interactive features, such as emphasizing particular aspects of the data set when users hover over different parts of the visualization.** 
 
-**Use Plotly to analyze the results of rolling dice....**
+**Use Plotly to analyze the results of rolling dice**
